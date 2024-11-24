@@ -9,4 +9,3 @@ def test_no_common_subsequence():
 
 def test_real_world_case():
     assert longest_common_subsequence("dynamicprogramming", "machinelearning") == 6, "Failed on real-world case"
-

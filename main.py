@@ -7,4 +7,4 @@ def longest_common_subsequence(a, b):
             else:
                 dp[i][j] = max(dp[i+1][j], dp[i][j+1])   
 
-    return dp
+    return dp[0][0]
